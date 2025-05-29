@@ -8,6 +8,16 @@ This is a verilog code for a 5-stage pipelined RISC-V Processor with forwarding 
 - Implemented 27 Instructions of the RV32I Core
 - 5 Stage Pipeline Design
 - Hazard Handling
+- 
+## Instruction Set Support
+| Type | Instructions |
+|------|--------|
+| R    | ADD, SUB, SLL, SLT, SLTU, XOR, SRL, SRA, OR, AND| 
+| I    | JALR, LB, LH, LW, LBU, LHU, ADDI, SLTI, SLTIU, XORI, ORI, ANDI, SLLI, SRLI, SRAI| 
+| S    | SB, SH, SW | 
+| B    | BEQ, BNE, BLT, BGE, BLTU, BGEU |
+| U    | LUI, AUIPC |
+| J    | JAL | 
 
 ## Design Steps
 - Implement Load Word Instruction first
